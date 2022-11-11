@@ -12,6 +12,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Edituser from "./components/Edituser";
+import {  Routes, Switch, Route } from "react-router-dom";
 function App() {
   const [users, setUsers] = useState([]);
   const [query, setQuery] = useState("");
