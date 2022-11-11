@@ -1,9 +1,9 @@
-import User from "./components/User";
+
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import api from "../src/api/contacts";
 import EditIcon from "@mui/icons-material/Edit";
-import Deleteconfirm from "./components/Deleteconfirm";
+
 import DeleteIcon from "@mui/icons-material/Delete";
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
